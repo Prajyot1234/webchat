@@ -19,7 +19,6 @@ const Container = styled.div`
 const Container_Box = styled.div`
         color: white!important;
         width: 25vw;
-        height: 70vh;
         min-height: 500px;
         border-radius: 10px;
         background-color: #7ee8fa;
@@ -95,7 +94,8 @@ const Container_Box = styled.div`
         }
 
         @media (max-width: 768px) {
-            width: 70vw;
+            width: 90vw;
+            padding: 30px;
         }
 `;
 
